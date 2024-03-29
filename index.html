@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- the button to start the game -->
     <button id="startButton">Démarrer le jeu</button>
-
+    <!--  score of the game -->
     <div id="score">Score: 0</div>
 
-    <div id="gameArea"></div>
+    <div class="timeRaiston">Time Raiston ⌛️ :</div>
+    <div class="gameOver hidden">
+       <button class="close-modal">&times;</button>
+      <h3>Game Over!💀</h3>
+      <p>Your final score is:</p>
+    </div>
 
+    <!-- the game Area -->
+    <div id="gameArea"></div>
+    <!-- the import of the script  js fille -->
     <script src="script.js"></script>
   </body>
 </html>
